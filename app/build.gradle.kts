@@ -106,6 +106,7 @@ dependencies {
     //hilt
     implementation("com.google.dagger:hilt-android:$hilt_version")
     kapt("com.google.dagger:hilt-android-compiler:$hilt_version")
+    implementation("androidx.hilt:hilt-work:1.0.0")
 
     //workManager
     val work_version = "2.9.1"
